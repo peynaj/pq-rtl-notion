@@ -1,0 +1,155 @@
+.notion-table-view
+{
+    direction: rtl !important;
+    padding-left: 150px !important;
+}
+
+.notion-board-view
+{
+    direction: rtl !important;
+    padding-left: 150px !important;
+}
+
+.notion-gallery-view {
+    direction: rtl !important;
+}
+
+.notion-bulleted_list-block,
+.notion-numbered_list-block
+{
+    direction: rtl !important;
+}
+
+.notranslate[placeholder="List"]
+{
+    /*background-color: deepskyblue !important;*/
+    text-align: right !important;
+}
+
+.notion-scroller.horizontal
+{
+    margin-bottom: 50px !important;
+}
+
+div[contenteditable="false"][data-content-editable-void="true"] > div {
+    direction: rtl !important;
+}
+
+.notion-collection_view-block > div[contenteditable="false"][data-content-editable-void="true"]
+{
+    float: right !important;
+    margin-right: 10px;
+}
+
+/*.notion-board-group,*/
+/*.notion-collection_view-block*/
+/*{*/
+/*    direction: rtl !important;*/
+/*}*/
+
+.notion-collection-item {
+    text-align: right !important;
+}
+
+div {
+    unicode-bidi: plaintext !important;
+}
+
+.notion-record-icon {
+    float: right !important;
+    margin-right: 2px !important;
+    margin-left: 4px !important;
+}
+
+
+/* scroll buttons */
+
+.scroll-to-right
+{
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    bottom: 25px;
+    right: 70px;
+    opacity: 60%;
+    width: 38px;
+}
+.scroll-to-right:hover {
+    opacity: 100%;
+    background-color: black;
+    color: white;
+}
+
+.scroll-to-top
+{
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    bottom: 70px;
+    right: 25px;
+    opacity: 60%;
+    width: 38px;
+}
+.scroll-to-top:hover {
+    opacity: 100%;
+    background-color: black;
+    color: white;
+}
+
+.extension-name
+{
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    background-color: deepskyblue;
+    border: solid 1px white;
+    border-radius: 10%;
+    font-weight: bold;
+    padding: 4px;
+    margin: 4px;
+    bottom: 4px;
+    right: 50%;
+    opacity: 70%;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.extension-name:active {
+    color: white;
+}
+
+/*!* Designing for scroll-bar *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 20px !important;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    background: gainsboro;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: black;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #555;*/
+/*}*/

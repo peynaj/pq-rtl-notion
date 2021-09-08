@@ -1,0 +1,16 @@
+{
+  "name": "pq-rtl-notion",
+  "description": "pq-rtl-notion!",
+  "version": "1.1",
+  "manifest_version": 3,
+  "content_scripts": [
+   {
+     "matches": [
+       "*://*.notion.so/*",
+       "*://*.notion.site/*"
+     ],
+     "css": ["background.css"],
+     "js": ["background.js"]
+   }
+ ]
+}
