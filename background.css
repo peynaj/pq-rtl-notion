@@ -31,6 +31,11 @@
     margin-bottom: 50px !important;
 }
 
+.notion-scroller
+{
+    scroll-behavior: smooth !important;
+}
+
 div[contenteditable="false"][data-content-editable-void="true"] > div {
     direction: rtl !important;
 }
@@ -71,14 +76,15 @@ div {
     z-index: 9999;
     background-color: white;
     border: solid 1px black;
-    border-radius: 50%;
     font-weight: bold;
     padding: 5px;
     margin: 5px;
     bottom: 25px;
     right: 70px;
     opacity: 60%;
-    width: 38px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
 }
 .scroll-to-right:hover {
     opacity: 100%;
@@ -93,14 +99,15 @@ div {
     z-index: 9999;
     background-color: white;
     border: solid 1px black;
-    border-radius: 50%;
     font-weight: bold;
     padding: 5px;
     margin: 5px;
     bottom: 70px;
     right: 25px;
     opacity: 60%;
-    width: 38px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
 }
 .scroll-to-top:hover {
     opacity: 100%;
